@@ -1,0 +1,329 @@
+{
+ "fortnights": [
+  "16–31 January",
+  "1–14 February",
+  "15–28 February",
+  "1–15 March",
+  "16–31 March",
+  "1–15 April",
+  "16–30 April"
+ ],
+ "warEnds": "8 May 1945",
+ "warEndsFortnight": 7.5,
+ "targets": [
+  {
+   "id": "gorki",
+   "name": "Gorki",
+   "group": "gorki",
+   "type": "steam",
+   "lat": 56.33,
+   "lon": 44.0,
+   "mw": 150,
+   "units": 4,
+   "mwFrom": "apportioned",
+   "note": "Not identified with certainty; probably a heat-and-power plant of the city. Capacity apportioned from the file's total."
+  },
+  {
+   "id": "balachna",
+   "name": "Balakhna",
+   "group": "gorki",
+   "type": "steam",
+   "lat": 56.49,
+   "lon": 43.6,
+   "mw": 204,
+   "units": 5,
+   "mwFrom": "soviet",
+   "note": "Gorki GRES (NiGRES), peat-fired, about 204 MW since 1933; never bombed directly."
+  },
+  {
+   "id": "dserschinsk",
+   "name": "Dzerzhinsk",
+   "group": "gorki",
+   "type": "steam",
+   "lat": 56.24,
+   "lon": 43.46,
+   "mw": 146,
+   "units": 4,
+   "mwFrom": "apportioned",
+   "note": "Chemical-industry plant; capacity apportioned from the file's total."
+  },
+  {
+   "id": "jaroslawl",
+   "name": "Yaroslavl (2 plants)",
+   "group": "jaroslawl",
+   "type": "steam",
+   "lat": 57.63,
+   "lon": 39.87,
+   "mw": 66,
+   "units": 4,
+   "mwFrom": "apportioned",
+   "note": "Two plants in the file; capacity apportioned."
+  },
+  {
+   "id": "uglitsch",
+   "name": "Uglich",
+   "group": "jaroslawl",
+   "type": "hydro",
+   "lat": 57.53,
+   "lon": 38.33,
+   "mw": 110,
+   "units": 2,
+   "mwFrom": "soviet",
+   "note": "Hydroelectric, 2 units (8 Dec 1940, 20 Mar 1941), 110 MW. Built by Volgostroy of the NKVD with prisoners of the Volgolag."
+  },
+  {
+   "id": "komsomolsk",
+   "name": "Komsomolsk",
+   "group": "jaroslawl",
+   "type": "steam",
+   "lat": 57.03,
+   "lon": 40.38,
+   "mw": 33,
+   "units": 2,
+   "mwFrom": "apportioned",
+   "note": "The Ivanovo GRES at Komsomolsk; capacity apportioned."
+  },
+  {
+   "id": "rybinsk",
+   "name": "Rybinsk",
+   "group": "jaroslawl",
+   "type": "hydro",
+   "lat": 58.05,
+   "lon": 38.86,
+   "mw": 110,
+   "units": 2,
+   "mwFrom": "soviet",
+   "note": "Hydroelectric, unit 1 from 18 Nov 1941, unit 2 from 1942; unit 3 only from 15 Aug 1945. Built by Volgostroy with Volgolag prisoners."
+  },
+  {
+   "id": "tula",
+   "name": "Tula",
+   "group": "tula",
+   "type": "steam",
+   "lat": 54.19,
+   "lon": 37.62,
+   "mw": 33,
+   "units": 2,
+   "mwFrom": "apportioned",
+   "note": "Capacity apportioned."
+  },
+  {
+   "id": "alexin",
+   "name": "Aleksin",
+   "group": "tula",
+   "type": "steam",
+   "lat": 54.5,
+   "lon": 37.07,
+   "mw": 32,
+   "units": 2,
+   "mwFrom": "apportioned",
+   "note": "Capacity apportioned."
+  },
+  {
+   "id": "stalinogorsk",
+   "name": "Stalinogorsk",
+   "group": "tula",
+   "type": "steam",
+   "lat": 54.01,
+   "lon": 38.29,
+   "mw": 250,
+   "units": 5,
+   "mwFrom": "estimate",
+   "note": "Pre-war at least 300 MW (four 50 MW sets and the USSR's only 100 MW set); blown up 21 Nov 1941, restored in stages from Oct 1942. The 1945 figure is the study's estimate."
+  },
+  {
+   "id": "kaschira",
+   "name": "Kashira",
+   "group": "tula",
+   "type": "steam",
+   "lat": 54.84,
+   "lon": 38.15,
+   "mw": 186,
+   "units": 5,
+   "mwFrom": "soviet",
+   "note": "186 MW after restoration (Kopsov p. 90); second stage evacuated to Novosibirsk in 1941, back 1942–43."
+  },
+  {
+   "id": "schatura",
+   "name": "Shatura",
+   "group": "tula",
+   "type": "steam",
+   "lat": 55.57,
+   "lon": 39.54,
+   "mw": 180,
+   "units": 6,
+   "mwFrom": "soviet",
+   "note": "180 MW: 2 × 16 MW and one GE set of 1925–27, 3 × 44 MW of 1933; one 44 MW set to Omsk in 1941, restored 1942."
+  }
+ ],
+ "groups": {
+  "gorki": {
+   "name": "Gorki area",
+   "mwFile": 500
+  },
+  "jaroslawl": {
+   "name": "Yaroslavl area",
+   "mwFile": null
+  },
+  "tula": {
+   "name": "Tula area",
+   "mwFile": null
+  }
+ },
+ "bases": [
+  {
+   "id": "koenigsberg",
+   "name": "Königsberg",
+   "lat": 54.71,
+   "lon": 20.51,
+   "lastFortnight": 0,
+   "note": "Soviet forces reached the Vistula Lagoon on 24 January 1945 and cut East Prussia off; the file of 7 February gives up the Gorki targets for that reason."
+  },
+  {
+   "id": "danzig",
+   "name": "Danzig / Stolp",
+   "lat": 54.4,
+   "lon": 17.8,
+   "lastFortnight": 2,
+   "note": "The file's fallback for the Yaroslavl and Tula groups. Farther Pomerania was cut through to the Baltic in the first days of March; Stolp fell in March, Danzig on 30 March."
+  },
+  {
+   "id": "oder",
+   "name": "West of the Oder (Garz, Stargard, Sagan)",
+   "lat": 53.34,
+   "lon": 15.05,
+   "lastFortnight": 6,
+   "note": "The file's last resort: from here only the targets round Tula. Sagan fell on 16 February, Stargard on 5 March; Garz on Usedom remained."
+  },
+  {
+   "id": "berlin",
+   "name": "Berlin area (Rechlin, Oranienburg, Garz)",
+   "lat": 53.0,
+   "lon": 13.0,
+   "lastFortnight": 5,
+   "note": "Baumbach: in March 1945 Mistel with greater range were ready to fly from the Berlin area. The US Eighth Air Force bombed Rechlin and Lärz on 10 April 1945."
+  }
+ ],
+ "deliveries": {
+  "atFeb7": 18,
+  "perFortnight": 20,
+  "cap": 82,
+  "note": "The file: 18 delivered by 7 February, the rest 'promised in the course of February'. The study lets them arrive late, at 20 a fortnight, up to the 82 that secondary accounts give for March."
+ },
+ "assumptions": {
+  "serviceable": 0.85,
+  "enrouteLoss": 0.12,
+  "fogDawn": 0.4,
+  "fogForecast": 0.2,
+  "findDawn": 0.85,
+  "findNight": 0.45,
+  "findLong": 0.55,
+  "hitFile": 0.6,
+  "hitNightFactor": 0.7,
+  "hitLowTraining": 0.75,
+  "returnBaumbach": 0.7,
+  "returnNoTransfer": 0.3,
+  "returnLongLeg": 0.7,
+  "illuminators": 12,
+  "illuminatorLoss": 0.15,
+  "repairSteam": [
+   5,
+   11
+  ],
+  "repairHydro": [
+   6,
+   12
+  ],
+  "frontDelayMonths": 3,
+  "longRangeBaumbach": 0.5
+ },
+ "assumptionNotes": {
+  "serviceable": "Share of combinations ready on the day; the study's assumption.",
+  "enrouteLoss": "Combinations lost to fighters, flak or breakdown over 1,300–1,500 km of enemy territory; the study's assumption.",
+  "fogDawn": "Koller: at dawn 'ground fog is to be expected very often at this time of year'. The figure is the study's.",
+  "fogForecast": "Waiting a fortnight for a firm forecast; the study's assumption.",
+  "findDawn": "Koller: finding the target 'can nevertheless be assumed' with experienced illuminator crews and chains of flares. The study does not take 'assumed' as certain.",
+  "findNight": "Koller: success at night only if the targets were 'lit up as bright as day', and the illuminators for that 'are not available'.",
+  "findLong": "7 February: target finding over 2,500 km 'cannot be solved with the existing pathfinders'.",
+  "hitFile": "The file's own figure: '60 % hit probability of the Mistel'. Baumbach (1949) claimed about 80 %.",
+  "hitNightFactor": "Night attack on point targets without full illumination; the study's assumption.",
+  "hitLowTraining": "Less fuel for training than the file's 1,400 t; the study's assumption.",
+  "returnBaumbach": "Reading A, after Baumbach: fuel could be drawn from the Ju 88 on the way out, so the fighter had its own tanks for the return.",
+  "returnNoTransfer": "Reading B, after later accounts: the Fw 190 could not use the Ju 88's fuel, and the fighter had to reach Courland on its own tanks.",
+  "returnLongLeg": "Factor for return legs of more than 1,200 km to Courland; the study's assumption.",
+  "illuminators": "Ju 88 S 3 and Ju 188 of I./KG 66 and II./KG 4; their number is the study's assumption.",
+  "illuminatorLoss": "Loss rate of the illuminator crews; the study's assumption.",
+  "repairSteam": "Months until a destroyed steam set runs again, after the 1941–42 precedents: Kashira supplied Moscow again about five months after its evacuation, Stalinogorsk's first set ran eleven months after the plant was blown up (Kopsov 2015; Mosenergo museum). Those were evacuations and demolitions, not hollow-charge hits.",
+  "repairHydro": "Months for a hydro unit; no wartime precedent, the study's extrapolation.",
+  "frontDelayMonths": "Baumbach: the effects 'could be felt at the front three to four months at the earliest'. The study uses three.",
+  "longRangeBaumbach": "Whether the long-range Mistel would have been ready in March (Baumbach) or not before May (the file of 7 February); the study draws one reading per game and tells you which at the end."
+ },
+ "soviet": {
+  "mosenergo1945": 1189,
+  "ussr1945mw": 11124,
+  "ussr1945gwh": 43257,
+  "stats": [
+   {
+    "year": 1940,
+    "ussrMw": 11193,
+    "mosMw": 1156,
+    "ussrGwh": 48309,
+    "mosGwh": 7268
+   },
+   {
+    "year": 1941,
+    "ussrMw": 6645,
+    "mosMw": 668,
+    "ussrGwh": 46671,
+    "mosGwh": 6606
+   },
+   {
+    "year": 1942,
+    "ussrMw": 7298,
+    "mosMw": 962,
+    "ussrGwh": 29068,
+    "mosGwh": 3744
+   },
+   {
+    "year": 1943,
+    "ussrMw": 8547,
+    "mosMw": 987,
+    "ussrGwh": 32288,
+    "mosGwh": 4693
+   },
+   {
+    "year": 1944,
+    "ussrMw": 9936,
+    "mosMw": 1084,
+    "ussrGwh": 39214,
+    "mosGwh": 5723
+   },
+   {
+    "year": 1945,
+    "ussrMw": 11124,
+    "mosMw": 1189,
+    "ussrGwh": 43257,
+    "mosGwh": 5837
+   }
+  ],
+  "statsSource": "Kopsov (ed.), Moskovskaya energetika v gody Velikoy Otechestvennoy voyny (Moscow 2015), table 3, p. 95."
+ },
+ "great": {
+  "countMin": 2,
+  "countMax": 4,
+  "fromFortnight": 2,
+  "range": 4000,
+  "abort": 0.25,
+  "hitP": 0.6,
+  "unitsPerHit": 2,
+  "find": 0.55,
+  "notes": {
+   "count": "Extreme what-if. The He 177 / Fw 190 'Great Mistel' never flew. A summary of its history (ourairports.biz, after a German secondary source): 100 conversions of He 177 A-3/A-5 planned in August 1944, the order for 98 cancelled in September; the RLM still required two machines; target dates 1 and 15 February 1945; suspended on 28 January 1945 'for lack of coal', abandoned on 12 March. The study lets two to four exist from mid-February.",
+   "range": "The He 177 had the range to reach every target from the Berlin area; the figure is the study's, for a one-way flight of the lower component.",
+   "abort": "The He 177's coupled engines were notoriously prone to fire; share of combinations that turn back or are lost before the target, the study's assumption.",
+   "hitP": "The file's 60 % for the Ju 88 Mistel, carried over; no figure exists for the He 177 combination.",
+   "unitsPerHit": "A heavier charge than the Ju 88's; the study lets one hit destroy up to two generating sets. An assumption, nothing more.",
+   "find": "Beyond the 'Sonne' beacons and without a pathfinder solution for 1,600–2,000 km, as the file says of the long-range Mistel."
+  }
+ }
+}

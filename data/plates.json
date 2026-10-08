@@ -1,0 +1,59 @@
+{
+ "credit": "Plates: public-domain photographs of the US Army and US Army Air Forces (National Archives, via Wikimedia Commons), a public-domain drawing and a West Point map; each is named with its original. Resized; swastikas masked where noted.",
+ "plates": [
+  {
+   "id": "bernburg",
+   "titel": "A Mistel at Bernburg",
+   "caption": "US soldiers look over a Ju 88 / Fw 190 combination at Bernburg on the Saale, where the Mistel were assembled; the airfield was taken by the US First Army in mid-April 1945. The Ju 88 is a G-series aircraft with BMW 801 radial engines and still has its crew canopy, which marks a training combination. With the lengthened Ju 88 G-10 such combinations were the Mistel 3C and its trainer S3C; model-kit and decal makers identify Ju 88 G-10 Werknummern 460065 and 460066 at Bernburg, but the US caption gives neither variant nor number. The swastika on the tail is masked in this reproduction.",
+   "source": "Wikimedia Commons, File:Ju 88-Fw 190 Mistel composite aircraft at Bernburg (Saale), Germany, circa in May 1945 (342-FH-3A20006-72492AC).jpg (https://commons.wikimedia.org/wiki/File:Ju_88-Fw_190_Mistel_composite_aircraft_at_Bernburg_(Saale),_Germany,_circa_in_May_1945_(342-FH-3A20006-72492AC).jpg)"
+  },
+  {
+   "id": "bernburg-field",
+   "titel": "Bernburg airfield, spring 1945",
+   "caption": "Two combinations on the airfield at Bernburg after its capture, a Ju 88 in the foreground with its fighter removed and the struts still standing. Photographed for the US Army Air Forces, April or May 1945. The swastika on the tail is masked in this reproduction.",
+   "source": "Wikimedia Commons, File:Mistel composite aircraft at Bernburg (Saale), Germany, circa in May 1945 (342-FH-3A19967-57583AC).jpg (https://commons.wikimedia.org/wiki/File:Mistel_composite_aircraft_at_Bernburg_(Saale),_Germany,_circa_in_May_1945_(342-FH-3A19967-57583AC).jpg)"
+  },
+  {
+   "id": "merseburg",
+   "titel": "Head on, at Merseburg",
+   "caption": "A Ju 88 / Fw 190 combination at Merseburg after the airfield's capture in April 1945, with a US airman for scale. The radial engines mark a Ju 88 G: a Mistel 2 (G-1) or 3C (G-10). Another combination found at Merseburg carried the Ju 88 G-1 Werknummer 590153, a Mistel 2.",
+   "source": "Wikimedia Commons, File:German Mistel composite aircraft at Merseburg airfield, Germany, circa in May 1945 (342-FH-3A19978-58019AC).jpg (https://commons.wikimedia.org/wiki/File:German_Mistel_composite_aircraft_at_Merseburg_airfield,_Germany,_circa_in_May_1945_(342-FH-3A19978-58019AC).jpg)"
+  },
+  {
+   "id": "gardelegen",
+   "titel": "Hidden in the forest at Gardelegen",
+   "caption": "A Fw 190 on a radial-engined Ju 88, camouflaged among the trees at Gardelegen and examined by soldiers of the 102nd Infantry Division, US Ninth Army. US troops occupied Gardelegen on 12 April 1945.",
+   "source": "Wikimedia Commons, File:German Mistel composite aircraft at Gardelegen, Germany, circa in May 1945 (204900853).jpg (https://commons.wikimedia.org/wiki/File:German_Mistel_composite_aircraft_at_Gardelegen,_Germany,_circa_in_May_1945_(204900853).jpg)"
+  },
+  {
+   "id": "captured",
+   "titel": "A 'piggy back plane', 4 May 1945",
+   "caption": "A member of the 439th Troop Carrier Group, USAAF, looks over a captured Ju 88 / Fw 190 combination at an air base on 4 May 1945, among wrecks and abandoned equipment. The swastika on the tail is masked in this reproduction.",
+   "source": "Wikimedia Commons, File:Ju 88-Fw 190 Mistel composite aircraft, 4 May 1945 (342-FH-3A16619-75946AC).jpg (https://commons.wikimedia.org/wiki/File:Ju_88-Fw_190_Mistel_composite_aircraft,_4_May_1945_(342-FH-3A16619-75946AC).jpg)"
+  },
+  {
+   "id": "inflight",
+   "titel": "Intercepted, 3 February 1945",
+   "caption": "Two Mistel combinations photographed by USAAF fighters that intercepted them, according to the caption on 3 February 1945; the place given in the caption is disputed.",
+   "source": "Wikimedia Commons, File:German Mistel composite aircraft are shot down over Germany on 3 February 1945 (204840840).jpg (https://commons.wikimedia.org/wiki/File:German_Mistel_composite_aircraft_are_shot_down_over_Germany_on_3_February_1945_(204840840).jpg)"
+  },
+  {
+   "id": "threeview",
+   "titel": "Mistel 3C, three views",
+   "caption": "Silhouettes of the Mistel 3C: a Ju 88 G-10 with a Fw 190 on struts above it. Drawing by Greg Goebel, released into the public domain.",
+   "source": "Wikimedia Commons, File:Junkers Ju 88 Mistel.jpg (https://commons.wikimedia.org/wiki/File:Junkers_Ju_88_Mistel.jpg)"
+  },
+  {
+   "id": "rechlin",
+   "titel": "Rechlin-Lärz from the air",
+   "caption": "Allied reconnaissance photograph of the airfield at Rechlin-Lärz, the Luftwaffe's test centre, in 1944. The US Eighth Air Force bombed Rechlin and Lärz on 10 April 1945.",
+   "source": "Wikimedia Commons, File:Messerschmitt Me 262 jet fighters at Rechlin-Lärz Airfield in 1944.JPG (https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262_jet_fighters_at_Rechlin-L%C3%A4rz_Airfield_in_1944.JPG)"
+  },
+  {
+   "id": "oder",
+   "titel": "The Soviet offensive to the Oder",
+   "caption": "Map of the Department of History, US Military Academy, West Point: the Soviet offensive from the Vistula to the Oder, 12 January – 30 March 1945, which took the jump-off airfields of the Eisenhammer plan one by one.",
+   "source": "Wikimedia Commons, File:Russian Offensive to the Oder 12 January to 30 March 1945.gif (https://commons.wikimedia.org/wiki/File:Russian_Offensive_to_the_Oder_12_January_to_30_March_1945.gif)"
+  }
+ ]
+}

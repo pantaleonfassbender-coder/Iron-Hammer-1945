@@ -1,0 +1,210 @@
+{
+ "chapters": [
+  {
+   "id": "target", "n": 1, "date": "1943 – 18 January 1945",
+   "title": "The target",
+   "lede": "A professor's idea of 1943 becomes a staff paper in January 1945: knock out the turbines that power the armament works round Moscow and the Upper Volga.",
+   "body": [
+    "In March 1943 the Reich Air Ministry set up a special staff of 37 assistants under Professor Heinrich Steinmann, an engineer and official for water, gas and electricity supply. It mapped the Soviet high-voltage grid and argued that the power stations of the Moscow–Upper Volga region were the weak point of the Soviet war economy: few in number, far apart, and full of turbines that took months to replace. Its papers of July to October 1943 survive in the Luftwaffe's captured records: a proposal for air attacks on the power supply of Moscow and the Upper Volga, a separate proposal against the hydroelectric plants of Rybinsk and Uglich, and studies of floating mines (\"Sommerballon\") that the current would carry into the turbine intakes.",
+    "In November 1943 the operations staff of the Luftwaffe made the region the first target of a strategic air war in the East, and the IV Air Corps was withdrawn from the front to train for it. Its attacks of 1944 reached a few factories; the power stations were never attacked. In January 1945, with the Red Army on the Vistula, the plan came back under a new name: Eisenhammer, the iron hammer.",
+    "The first memo in the file is Koller's of 18 January 1945, written for Göring. Its arithmetic is simple. The region has 2.5 million kW of installed capacity; the planned targets account for 1.5 million kW, or 60 per cent; with a 60 per cent hit probability the loss will be about 40 per cent of the region's capacity. The memo then lists what depends on that current: 90 per cent of Soviet motor-vehicle production, half the ball bearings, a quarter of the medium tanks. Its proposal is one line: carry out the attack.",
+    "These are German estimates of 1945, and the study treats them as such. What the staff did not know, or did not write down, comes in chapter 7."
+   ],
+   "facsimiles": [
+    {"src": "assets/file/a1-head.jpg", "caption": "Koller to Göring's adjutant, 18 January 1945: 'Betr.: Unternehmen \"Eisenhammer\"'.", "href": "#/file/a1"},
+    {"src": "assets/file/a1-effect.jpg", "caption": "The arithmetic: 2.5 million kW, 60 % covered, 60 % hit probability, 40 % lost; and the armament shares.", "href": "#/file/a1"}
+   ],
+   "quotes": [
+    {"de": "Bei 60%iger Treffwahrscheinlichkeit der Mistel ist als Gesamterfolg mit Ausfall von 40 % dieser Leistung zu rechnen.", "en": "With a 60 % hit probability of the Mistel, the overall result to be expected is the loss of 40 % of this capacity.", "cite": {"label": "Koller, 18.1.1945, 1)", "href": "#/file/a1"}}
+   ],
+   "data": ["targets"],
+   "sources": ["t971", "hs186", "hs155", "hs189"],
+   "decision": {
+    "key": "targets",
+    "prompt": "Which plants do you plan against?",
+    "options": [
+     {"value": "all", "label": "All 13, as planned", "detail": "1.5 million kW in the file's reckoning. The Gorki group needs airfields round Königsberg."},
+     {"value": "yt", "label": "The Yaroslavl and Tula groups (10 plants)", "detail": "The file's fallback of 7 February: about 1.0 million kW, reachable from Danzig/Stolp."},
+     {"value": "tula", "label": "Only the Tula group", "detail": "Kashira, Shatura, Stalinogorsk, Tula, Aleksin: the nearest, and the only ones within reach from west of the Oder, except that even here two lie beyond 1,500 km."}
+    ],
+    "file": "all",
+    "fileNote": "Koller's memo plans all thirteen; the memo of 7 February already gives up the Gorki group."
+   }
+  },
+  {
+   "id": "weapon", "n": 2, "date": "January – February 1945",
+   "title": "The weapon",
+   "lede": "A pilotless bomber with a fighter on its back: about a hundred are needed, eighteen have arrived.",
+   "body": [
+    "The Mistel ('mistletoe') was a worn-out Ju 88 bomber whose crew cabin had been replaced by a hollow-charge warhead of about 3.5 tonnes, with a single-seat fighter, a Fw 190 or Bf 109, mounted on struts above it. The fighter pilot flew both aircraft, aimed the combination at the target in a shallow dive, switched on the bomber's autopilot and released it, then turned for home. Baumbach, the commander of KG 200, later wrote of 'four tonnes' and a release about 1,000 metres from the target.",
+    "The memo of 7 February gives the state of things: about 100 combinations are needed, including those for training; the planned delivery date was 1 February; 'so far 18 combinations have been delivered to the unit', and the rest are promised in the course of February. With 1,500 km of penetration depth, the combinations being built cannot reach the whole target list from any airfield still in German hands.",
+    "A longer-ranged Mistel had been ordered: 100 combinations with a lengthened fuselage and stronger undercarriage, good for 2,500 km. The same memo prices it: not before three months, 20,000 working hours each instead of 7,000, 5,000 workers for three months, the Ju 88 G-6 night fighter out of production, the Ar 234 C and Ju 388 delayed, 100 Fw 190 lost to the day fighters, 500 new tanks of 1,220 litres, and a 13-hour flight in a single-seat aircraft. Baumbach, writing in 1949, claimed that Mistel 'with increased range' were ready in March to fly from the Berlin area. The two accounts do not agree, and the study does not decide between them: if you order the long-range Mistel, the game draws one reading and tells you at the end which one you played against."
+   ],
+   "facsimiles": [
+    {"src": "assets/file/b2-eighteen.jpg", "caption": "7 February 1945: about 100 Mistel needed, 'Bisher sind 18 Gespanne an die Truppe ausgeliefert'.", "href": "#/file/b2"}
+   ],
+   "quotes": [
+    {"de": "Bisher sind 18 Gespanne an die Truppe ausgeliefert.", "en": "So far 18 combinations have been delivered to the unit.", "cite": {"label": "Operations staff, 7.2.1945, 3)", "href": "#/file/b2"}}
+   ],
+   "plates": ["gardelegen", "threeview"],
+   "data": ["mistel"],
+   "sources": ["t971", "baumbach", "forsyth"],
+   "decision": {
+    "key": "mistel",
+    "prompt": "Do you insist on the long-range Mistel?",
+    "options": [
+     {"value": "short", "label": "Finish the 1,500 km combinations, order no more", "detail": "The file's proposal 8 b) and c). Range stays at 1,500 km."},
+     {"value": "long", "label": "Build the 2,500 km Mistel as well", "detail": "Costs fighters, night fighters and workers. Ready in March (Baumbach) or not before May (the file): one reading is drawn."}
+    ],
+    "file": "short",
+    "fileNote": "'Vom Bau weiterer Mistel, insbesondere mit grosser Reichweite, absehen': refrain from building more, especially long-range ones."
+   }
+  },
+  {
+   "id": "airfields", "n": 3, "date": "24 January – March 1945",
+   "title": "The jump-off airfields",
+   "lede": "Every week the front swallows another airfield, and every airfield lost takes a group of targets out of range.",
+   "body": [
+    "Koller's plan assumed jump-off airfields round Königsberg and Danzig. Six days later, on 24 January, Soviet tanks reached the Vistula Lagoon and cut East Prussia off from the Reich. The memo of 7 February draws the consequence: the Gorki group 'can only be reached from airfields in the Königsberg area' and must be given up. The Yaroslavl and Tula groups can still be reached from Danzig and Stolp. From the airfields west of the Oder (Garz, Stargard, Sagan) only the targets round Tula are within range, and then 'a decisive effect is no longer to be expected'.",
+    "The distances bear the staff out. With 1,500 km of penetration depth, everything is in reach from Königsberg; from Danzig and Stolp everything except the Gorki group; from Stargard only Tula and Aleksin. The memo's enclosed map is not on the film; the map here is drawn from the great-circle distances.",
+    "The front kept moving. Sagan fell on 16 February, Stargard on 5 March; in the first days of March the Red Army cut through Farther Pomerania to the Baltic, and Danzig fell on 30 March. In the study, Danzig and Stolp are usable until the end of February, the airfields west of the Oder until the end of April."
+   ],
+   "facsimiles": [
+    {"src": "assets/file/b2-jumpoff.jpg", "caption": "7 February 1945, point 4: Gorki only from Königsberg; Yaroslavl and Tula from Danzig/Stolp; from west of the Oder only Tula.", "href": "#/file/b2"}
+   ],
+   "quotes": [
+    {"de": "Eine entscheidende Wirkung ist damit nicht mehr zu erwarten, sodass in diesem Fall von der Angriffsdurchführung abgesehen werden müsste.", "en": "A decisive effect is then no longer to be expected, so that in that case the attack would have to be abandoned.", "cite": {"label": "Operations staff, 7.2.1945, 4)", "href": "#/file/b2"}}
+   ],
+   "data": ["map", "distances"],
+   "plates": ["oder"],
+   "sources": ["t971", "westpoint"],
+   "decision": {
+    "key": "base",
+    "prompt": "Where do the combinations assemble?",
+    "options": [
+     {"value": "danzig", "label": "Danzig / Stolp", "detail": "Reaches the Yaroslavl and Tula groups. Usable until the end of February."},
+     {"value": "oder", "label": "West of the Oder", "detail": "Safe until April, but reaches only Tula and Aleksin."},
+     {"value": "berlin", "label": "The Berlin area, for the long-range Mistel", "detail": "Only if the 2,500 km combinations exist; otherwise the attack flies from west of the Oder."}
+    ],
+    "file": "danzig",
+    "fileNote": "'Absprungplätze zum Erreichen dieser Ziele im Raum Danzig / Stolp.'"
+   }
+  },
+  {
+   "id": "fuel", "n": 4, "date": "February 1945",
+   "title": "The fuel",
+   "lede": "1,400 tons for training and the attack: two thirds of what the air fleet defending the Reich receives in February.",
+   "body": [
+    "Both memos see the same problem and draw opposite conclusions. Koller (18 January) puts KG 30's consumption at about 1,800 cubic metres, 'very high', concedes that the savings will be borne by the Eastern Front 'which the attack is meant to relieve', and still finds the cost small 'measured against the effort that would be needed to achieve these results at the front'.",
+    "Three weeks later the operations staff counts 1,400 tons for training and operation, about two thirds of the 2,000 tons allotted to Luftflotte Reich for February: 'a burden that can hardly be borne'. Fuel could only come from the Eastern Front, where the Red Army had reached the Oder, about 70 km from Berlin.",
+    "The study lets you take the whole amount, half of it (less training, a lower hit rate), or none, which means there is no attack."
+   ],
+   "facsimiles": [
+    {"src": "assets/file/b3-fuel.jpg", "caption": "7 February 1945, point 6: 1,400 tons, two thirds of Luftflotte Reich's February fuel.", "href": "#/file/b3"},
+    {"src": "assets/file/a3-proposal.jpg", "caption": "18 January 1945: the fuel 'small, measured against the effort at the front'; proposal: 'Angriffsunternehmen durchführen'.", "href": "#/file/a3"}
+   ],
+   "quotes": [
+    {"de": "Dazu notwendige Einsparungen werden im wesentlichen von der Ostfront getragen werden müssen, für die der Angriff eine Entlastung bringen soll.", "en": "The savings needed for it will have to be borne essentially by the Eastern Front, which the attack is meant to relieve.", "cite": {"label": "Koller, 18.1.1945, 3d; repeated 7.2.1945, 6)", "href": "#/file/a3"}}
+   ],
+   "data": ["fuel"],
+   "sources": ["t971"],
+   "decision": {
+    "key": "fuel",
+    "prompt": "How much fuel do you claim?",
+    "options": [
+     {"value": "full", "label": "All 1,400 tons", "detail": "Full training. Taken from the Eastern Front."},
+     {"value": "half", "label": "About 700 tons", "detail": "Less training: the hit probability falls by a quarter (the study's assumption)."},
+     {"value": "none", "label": "None", "detail": "No training, no attack."}
+    ],
+    "file": "none",
+    "fileNote": "'Bereitstellen des Flugbetriebstoffes durch Einsparungen in derzeitiger Lage nicht möglich': providing the fuel is not possible in the present situation."
+   }
+  },
+  {
+   "id": "finding", "n": 5, "date": "February 1945",
+   "title": "Finding the target",
+   "lede": "1,300 km over enemy country at night, then a power station at dawn, from a single-seat fighter.",
+   "body": [
+    "Koller's memo names the condition on which everything depends: finding the target. The 'Sonne' radio beacons reach only about two thirds of the way. The rest is to be done by experienced illuminator crews of I./KG 66 and II./KG 4 laying chains of flares so close together that each pilot can see the next, and by landmarks that 'will be recognisable in spite of snow and frozen lakes'. 'Finding the target can nevertheless be assumed.'",
+    "The same memo names the risk. The attack has to come at dawn, because a night attack on point targets would need them 'lit up as bright as day', and the illuminators for that are not available. And at dawn, at this time of year, ground fog 'is to be expected very often'; it 'can put the whole attack in question'.",
+    "The study takes 'can be assumed' as a probability, not a certainty, and lets you choose: attack at the next dawn as planned, wait a fortnight for a firm forecast, or try the night attack the memo rules out."
+   ],
+   "facsimiles": [
+    {"src": "assets/file/a2.jpg", "caption": "18 January 1945, point 3: jump-off airfields, target finding, the 'Sonne' beacons, ground fog, daylight.", "href": "#/file/a2"}
+   ],
+   "quotes": [
+    {"de": "Bodennebel kann den gesamten Angriff in Frage stellen.", "en": "Ground fog can put the whole attack in question.", "cite": {"label": "Koller, 18.1.1945, 3c", "href": "#/file/a2"}}
+   ],
+   "data": ["probabilities"],
+   "sources": ["t971"],
+   "decision": {
+    "key": "method",
+    "prompt": "How do you attack?",
+    "options": [
+     {"value": "dawn", "label": "At dawn, with illuminators, at the first opportunity", "detail": "Koller's plan. Ground fog over a target group in about four mornings out of ten (the study's figure)."},
+     {"value": "forecast", "label": "Wait for a firm forecast", "detail": "Halves the fog risk, costs a fortnight: more combinations, fewer airfields."},
+     {"value": "night", "label": "At night", "detail": "No fog risk, but the memo says the illuminators for a night attack do not exist."}
+    ],
+    "file": "dawn",
+    "fileNote": "'Auf Tageslicht zum Angriff kann nicht verzichtet werden': daylight for the attack cannot be done without."
+   }
+  },
+  {
+   "id": "february7", "n": 6, "date": "7 February 1945",
+   "title": "The seventh of February",
+   "lede": "A briefing paper for Göring's meeting with Speer, and its proposal: postpone.",
+   "body": [
+    "The operations staff's memo of 7 February sums up: with the jump-off airfields lost, 1,500 km is no longer enough for the operation as a whole; the long-range Mistel cannot be justified; the fuel cannot be found; and success depends on weather and on navigation aids that are inadequate. Its proposal: postpone Eisenhammer, finish the Mistel being built, build no more.",
+    "This is the decision the study turns on, and the one later accounts most often get wrong. The usual story has Eisenhammer abandoned in the spring because a US raid on Rechlin destroyed 18 Mistel. Part of it has a source: Deichmann's study for the US Air Force (1956) says that Mistel meant for the attacks on the power stations were destroyed in Allied raids on airfields. But no source gives the number, and none makes the raid the reason. The 18 in the file are combinations delivered, not destroyed, and the proposal to shelve the operation was made in February, two months before the raid on Rechlin.",
+    "In the study you can follow the staff, or overrule it. If you overrule it, the attack is flown with what exists at the date you choose, from whichever of your airfields the front has left you."
+   ],
+   "facsimiles": [
+    {"src": "assets/file/b4-postpone.jpg", "caption": "7 February 1945, points 7 and 8: summary and proposal, 'Unternehmen \"Eisenhammer\" zurückstellen'.", "href": "#/file/b4"},
+    {"src": "assets/file/b1-targets.jpg", "caption": "The first page: thirteen power stations, KG 200 and its subordinate units.", "href": "#/file/b1"}
+   ],
+   "quotes": [
+    {"de": "Unternehmen \"Eisenhammer\" zurückstellen.", "en": "Postpone Operation \"Eisenhammer\".", "cite": {"label": "Operations staff, 7.2.1945, 8a", "href": "#/file/b4"}}
+   ],
+   "sources": ["t971"],
+   "decision": {
+    "key": "decision",
+    "prompt": "What do you propose to the Reichsmarschall?",
+    "options": [
+     {"value": "postpone", "label": "Postpone, as the staff proposes", "detail": "The historical course."},
+     {"value": "now", "label": "Attack at the next opportunity (late February)", "detail": "With about 38 combinations delivered by then."},
+     {"value": "later", "label": "Attack when more are ready (early March)", "detail": "About 58 combinations, but Danzig and Stolp will be lost."},
+     {"value": "last", "label": "Wait for the long-range Mistel (late March)", "detail": "Only worth it if they exist; the front reaches the Oder."}
+    ],
+    "file": "postpone",
+    "fileNote": "'Unternehmen \"Eisenhammer\" zurückstellen.'"
+   }
+  },
+  {
+   "id": "otherside", "n": 7, "date": "1941 – 1945",
+   "title": "The other side",
+   "lede": "What the German arithmetic left out: evacuation, repair, air defence, and the prisoners who built the dams.",
+   "body": [
+    "The Soviet power system had already survived a worse blow. In the autumn of 1941 the Moscow system (Mosenergo) evacuated 54 per cent of its capacity, 18 turbine sets with 726 MW, to the Urals and Siberia; Stalinogorsk was blown up when the Germans took the town on 21 November 1941. Moscow's generation fell from 7,268 GWh in 1940 to 3,744 in 1942, and the armament works round it kept producing. Kashira supplied Moscow again within about five months, Stalinogorsk's first set ran again within eleven. By 1945 Mosenergo had more capacity than before the war.",
+    "The plants on the target list were not undefended. On 14 July 1941 the State Defence Committee ordered guns and fighter squadrons for the power stations of Stalinogorsk, Kashira and Shatura; a decree of 26 May 1943 strengthened the air defence of the hydroelectric works, the Upper Volga first. On 1 January 1945 the Moscow air defence had more than 1,400 medium anti-aircraft guns.",
+    "The claim, repeated in later accounts, that the Soviet Union could not build turbines is wrong. The Leningrad Metal Works built the third Rybinsk unit during the blockade; the Kharkov turbine works, evacuated to Sverdlovsk, delivered turbines from 1943. The United States had shipped electric generating sets worth 171 million dollars under Lend-Lease by mid-1945.",
+    "Rybinsk and Uglich, the two hydroelectric plants on the list, had been built by Volgostroy of the NKVD with the labour of prisoners of the Volgolag camp, at its peak nearly 100,000 people, many of whom died there. A strike on these turbines would have fallen on works built by forced labour and run by a workforce that still included prisoners. Whatever the model counts, it cannot count them, and the study does not pretend to."
+   ],
+   "data": ["soviet"],
+   "sources": ["kopsov", "mosenergo2020", "burdin", "lendlease", "memorial"],
+   "decision": null
+  },
+  {
+   "id": "end", "n": 8, "date": "March – May 1945",
+   "title": "The end",
+   "lede": "A briefing to Hitler in March, the last Mistel against the Oder bridges in April, and a legend after the war.",
+   "body": [
+    "Eisenhammer did not die quietly in February. In March Speer took Baumbach to Hitler to present the plan again; a briefing on Eisenhammer for Hitler is listed in the Luftwaffe's surviving files for March 1945. Deichmann's study for the US Air Force (1956) quotes the OKL war diary for 14 April: six of the twelve Ju 290 needed for 'Operation Gertrud' had been destroyed. Mistel meant for the attacks on the power stations, he writes, were lost in Allied raids on airfields, and the General Staff ordered the preparations stopped because the operation could no longer be carried out successfully. On 10 April the US Eighth Air Force had bombed Rechlin and Lärz.",
+    "The Mistel were used up where the front was, against the bridges the Red Army had thrown across the Oder: in March, on dates the accounts give differently, and by the Luftwaffe's own record on the night of 14–15 April, with little effect. Floating mines meant for the turbine intakes were ordered against the same bridges.",
+    "In 1949 Baumbach published his account in Buenos Aires. Eisenhammer, he wrote, failed because East Prussia fell too quickly; in March it would have been 'madness' to fly it, because hundreds of thousands of German prisoners of war would then have had to rebuild what was destroyed. The file shows a different order of reasons: range, fuel, navigation and the weather, weighed by a staff in February. The postwar story of the 18 Mistel destroyed at Rechlin is a third version: a true loss, a wrong number, and a cause put in place of the staff's own reasons."
+   ],
+   "plates": ["merseburg", "inflight", "rechlin"],
+   "sources": ["baumbach", "hs186", "hs163", "barch", "chronology"],
+   "decision": null
+  }
+ ]
+}
