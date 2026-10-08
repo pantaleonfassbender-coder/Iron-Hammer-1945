@@ -28,3 +28,5 @@ Plates: public-domain photographs of Mistel combinations taken by the US Army an
 Any static server, e.g. `python -m http.server 8960`.
 
 Licences: see `LICENSES.md`.
+
+**Sequel:** [Dragon's Lair, 1944–45](https://dragons-lair-1944-45.netlify.app/): the Mistel study of April 1944 against the Home Fleet at Scapa Flow, and Operation Drachenhöhle, February 1945.
