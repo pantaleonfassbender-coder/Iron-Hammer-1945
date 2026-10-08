@@ -4,7 +4,7 @@
 
 const D = {};
 // Set when the itch.io page exists; the itch build sets window.IH_ITCH instead.
-const ITCH_URL = "";
+const ITCH_URL = "https://leofassb.itch.io/iron-hammer-1945";
 function supportBox() {
   if (window.IH_ITCH) return `<div class="support"><b>This study is free.</b> It took weeks of work in the archives. If you found it useful, please support it with a donation: use the <b>Support</b> / donate button on this itch.io page. Every contribution helps to open the next file.</div>`;
   if (ITCH_URL) return `<div class="support"><b>This study is free.</b> If you found it useful, you can support the work with a donation on its <a href="${ITCH_URL}" target="_blank" rel="noopener">itch.io page</a>.</div>`;

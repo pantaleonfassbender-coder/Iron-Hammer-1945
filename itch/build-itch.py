@@ -15,8 +15,8 @@ OUT = ROOT / "itch" / "iron-hammer-1945-itch.zip"
 
 def page():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
-    html, n = re.subn(r' · <a href="legal\.html#notice">Legal notice</a> · <a href="legal\.html#privacy">Privacy</a>', "", html)
-    assert n == 1, "legal links not found"
+    html, n = re.subn(r' · <a href="https://leofassb\.itch\.io/iron-hammer-1945" target="_blank" rel="noopener">On itch\.io</a> · <a href="legal\.html#notice">Legal notice</a> · <a href="legal\.html#privacy">Privacy</a>', "", html)
+    assert n == 1, "itch and legal links not found"
     html, k = re.subn(r'<script src="model\.js"></script>', '<script>window.IH_ITCH = true;</script>\n<script src="model.js"></script>', html)
     assert k == 1
     return html
