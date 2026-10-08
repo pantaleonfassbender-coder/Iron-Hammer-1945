@@ -92,3 +92,4 @@ tr.sum td{border-top:2px solid var(--ink);font-weight:600}
 .chain{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem;font-size:.9rem}
 .chain .p{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:.2rem .5rem}
 @media (max-width:860px){.hero,.chapter,.pageview{grid-template-columns:1fr}.cols3{grid-template-columns:1fr}h1{font-size:1.6rem}}
+.support{background:var(--panel);border:2px solid var(--accent);border-radius:8px;padding:.8rem 1rem;margin:1.2rem 0;max-width:46rem}

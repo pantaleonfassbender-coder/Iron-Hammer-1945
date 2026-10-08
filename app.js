@@ -3,6 +3,13 @@
 "use strict";
 
 const D = {};
+// Set when the itch.io page exists; the itch build sets window.IH_ITCH instead.
+const ITCH_URL = "";
+function supportBox() {
+  if (window.IH_ITCH) return `<div class="support"><b>This study is free.</b> It took weeks of work in the archives. If you found it useful, please support it with a donation: use the <b>Support</b> / donate button on this itch.io page. Every contribution helps to open the next file.</div>`;
+  if (ITCH_URL) return `<div class="support"><b>This study is free.</b> If you found it useful, you can support the work with a donation on its <a href="${ITCH_URL}" target="_blank" rel="noopener">itch.io page</a>.</div>`;
+  return "";
+}
 const KEY = "ironhammer_state";
 let S = { mode: null, great: false, choices: {}, seed: 1, reached: 1 };
 
@@ -59,6 +66,7 @@ function start() {
       </div>
       <label class="whatif"><input type="checkbox" id="great" ${S.great ? "checked" : ""}>
         <span><b>Extreme what-if: the Great Mistel.</b> <span class="fine">Adds a handful of He 177 bombers with a Fw 190 on top, a project of 1944 that was suspended on 28 January 1945 and abandoned in March; it never flew. In this variant two to four exist from mid-February and can reach every target from the Berlin area. Every figure for it is an assumption, and the study says so.</span></span></label>
+      ${supportBox()}
       <p class="fine">The study shows the planning of an attack from the side of those who planned it. It does not adopt their view: chapter 7 and the reflection follow what the file does not count. No swastika is shown; where one appears on a photograph, it is masked.</p>
     </div>
     <figure class="facs"><img src="assets/file/b2-eighteen.jpg" alt="Facsimile: 'Bisher sind 18 Gespanne an die Truppe ausgeliefert'">
@@ -231,6 +239,7 @@ function result() {
     ${body}
     <h2>What no column counts</h2>
     <p class="readable">The model counts megawatts. It does not count the people at the plants on the night of an attack, the prisoners of the Volgolag who built Rybinsk and Uglich, the workers in the factories the file wanted to stop, or the German prisoners of war whom Baumbach, writing in 1949, imagined rebuilding the damage. It cannot say what a loss of current would have meant for any of them, and it does not try. See the <a href="#/reflection">reflection</a>.</p>
+    ${supportBox()}
     <div class="navrow"><a class="btn" href="#/ch/8">← Chapter 8</a>${S.mode === "play" ? `<button id="again">Plan again</button>` : `<a class="btn primary" href="#/">Take the staff's seat</a>`}</div>`;
   const again = $("#again");
   if (again) again.onclick = () => { S.choices = {}; S.seed = Math.floor(Math.random() * 1e9); S.reached = 1; save(); location.hash = "#/ch/1"; };

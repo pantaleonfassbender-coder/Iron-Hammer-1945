@@ -1,3 +1,4 @@
 tools/src/
 __pycache__/
 .claude/
+itch/*.zip
