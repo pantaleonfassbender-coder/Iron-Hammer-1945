@@ -2,6 +2,8 @@
 
 A hypothetical campaign study from the Luftwaffe's own file: Operation Eisenhammer, the planned Mistel attack on thirteen power stations of Moscow and the Upper Volga, January–April 1945.
 
+**Read and play online:** https://iron-hammer-1945.netlify.app
+
 The core is the file itself: two memos of 18 January and 7 February 1945 in the captured German records of the US National Archives (microfilm T-971, roll 22, item 4406/72), given in facsimile, full transcription and English translation. The first proposes the attack; the second, three weeks later, proposes to postpone it. The file also corrects a common story: the "18 Mistel" it names were delivered, not destroyed at Rechlin.
 
 Two ways through eight chapters:
