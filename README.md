@@ -29,4 +29,4 @@ Any static server, e.g. `python -m http.server 8960`.
 
 Licences: see `LICENSES.md`.
 
-**Sequel:** [Dragon's Lair, 1944–45](https://dragons-lair-1944-45.netlify.app/): the Mistel study of April 1944 against the Home Fleet at Scapa Flow, and Operation Drachenhöhle, February 1945.
+**Sequel:** [Dragon's Lair, 1944–45](https://dragons-lair-1944-45.netlify.app/): the Mistel study of April 1944 against the Home Fleet at Scapa Flow, and Operation Drachenhöhle, February 1945. [Two Flying Boats, 1942](https://two-flying-boats-1942.netlify.app/): the raid on New York by two BV 222 flying boats, refuelled by U-boats, in the German Naval Staff's war diary of July 1942.
